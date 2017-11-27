@@ -1,0 +1,82 @@
+
+.icon {
+  display: inline-block;
+  position: relative;
+}
+
+
+div.logo.icon {
+  margin-top: 30px;
+} 
+
+.fa-search {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 7px;
+}
+
+input {
+  width: 800px;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+  background-color: #EFEFEF;
+  background-position: 20px 10px; 
+  background-repeat: no-repeat;
+  padding-top: 23px;
+  padding-left:40px;
+  padding-right: 110px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-top:12px;
+  display: inline-block;
+}
+
+body img {             /* darle tamaño a las imagenes de la galeria  */
+  border-radius: 45px;
+  max-height: 101%;
+  max-width: 101%;
+}
+
+body {
+ -webkit-column-count: 4; /* Chrome, Safari, Opera */
+ -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+  display:block;
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  margin-top:110px;
+}
+
+.menu img {
+  width:40px;
+  height: 40px;
+  margin-left: 30px;
+  margin-top: -5px;
+  margin-right: 20px;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+i.fa {                 /*iconos de la barra menu */
+  color: #b5b5b5;
+  font-size: 35px;
+  display: inline-block;  
+}
+
+.hr {
+  border: solid;  0,5px;
+  color: #EFEFEF;
+}
+
+.menu {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+  }
